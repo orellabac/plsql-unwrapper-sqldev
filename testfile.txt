@@ -1,0 +1,4 @@
+select SYS.DBMS_DDL.WRAP('CREATE OR REPLACE FUNCTION get_date_string RETURN VARCHAR2 AS' ||
+              'BEGIN ' ||
+              'RETURN TO_CHAR(SYSDATE, ''DD-MON-YYYY''); ' ||
+              'END get_date_string;') from dual;

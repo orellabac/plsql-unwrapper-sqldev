@@ -63,3 +63,8 @@ see [Frequently Ased Questions](FAQ.md).
 PL/SQL Unwrapper is licensed under the Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License. You may obtain a copy of the License at https://creativecommons.org/licenses/by-nc-nd/3.0/.
 
 ![CC-BY_NC-ND](images/CC-BY-NC-ND.png)
+
+
+## Building CLI
+
+javac -cp com.trivadis.unwrapper.sqldev.jar unwrap_cli.java 
