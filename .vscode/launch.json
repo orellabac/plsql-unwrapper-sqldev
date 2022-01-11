@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch unwrap_cli",
+            "request": "launch",
+            "mainClass": "unwrap_cli",
+            "projectName": "plsql-unwrapper-sqldev_7c76ab57",
+            "args": ["/workspaces/plsql-unwrapper-sqldev/dri_move_ctxsys.sql","out.txt"]
+        }
+    ]
+}

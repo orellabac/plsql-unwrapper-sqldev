@@ -19,7 +19,7 @@ class unwrap_cli {
         {
             var infile = args[0];
             var outfile = args[1];
-            System.out.println("Procesing file: ");
+            System.out.println("Procesing file: " + infile);
             var contents = Files.readString(Path.of(infile));
             var res = Unwrapper.unwrap(contents);
             try (PrintStream out = new PrintStream(new FileOutputStream(outfile))) {

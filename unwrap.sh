@@ -1,2 +1,2 @@
 #!/bin/bash
-java -cp com.trivadis.unwrapper.sqldev.jar -cp ./bin unwrap_cli $1 $2
+java --class-path com.trivadis.unwrapper.sqldev.jar:./bin unwrap_cli $1 $2
